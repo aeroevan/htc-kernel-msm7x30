@@ -736,7 +736,7 @@ static int msm_rotator_rgb_types(struct msm_rotator_img_info *info,
 	return 0;
 }
 
-extern struct fb_info *registered_fb[];
+/*extern struct fb_info *registered_fb[];
 int get_fb_phys_info(unsigned long *start, unsigned long *len, int fb_num)
 {
 	struct fb_info *info;
@@ -751,7 +751,7 @@ int get_fb_phys_info(unsigned long *start, unsigned long *len, int fb_num)
 	*start = info->fix.smem_start;
 	*len = info->fix.smem_len;
 	return 0;
-}
+}*/
 
 static int get_img(struct msmfb_data *fbd, unsigned long *start,
 	unsigned long *len, struct file **p_file, struct ion_handle **p_ihdl)
