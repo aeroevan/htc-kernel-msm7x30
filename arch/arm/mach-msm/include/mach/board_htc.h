@@ -25,8 +25,6 @@ struct msm_pmem_setting{
 	resource_size_t pmem_size;
 	resource_size_t pmem_adsp_start;
 	resource_size_t pmem_adsp_size;
-	resource_size_t pmem_audio_start;
-	resource_size_t pmem_audio_size;
 	resource_size_t pmem_gpu0_start;
 	resource_size_t pmem_gpu0_size;
 	resource_size_t pmem_gpu1_start;
